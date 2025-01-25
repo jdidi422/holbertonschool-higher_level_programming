@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for i in range(0, 10):
-    for j in range(1, 10):
-        if (str(i) + str(j)) == "89":
-            print("{}".format(str(i)+str(j)))
-        if i != j and i < j and (str(i) + str(j)) != "89":
-            print("{},".format(str(i) + str(j)), end=" ")
+def print_sorted_dictionary(a_dictionary):
+    """
+    Prints a dictionary by ordered keys
+    """
+    for key in sorted(a_dictionary.keys()):  
+        print(f"{key}: {a_dictionary[key]}")
