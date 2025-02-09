@@ -96,4 +96,4 @@ if __name__ == "__main__":
     shape_info(circle)  
 
     print("\nRectangle:")
-    shape_info(rectangle) 
+    shape_info(rectangle)  
