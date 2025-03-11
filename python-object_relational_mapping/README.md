@@ -1,1 +1,1 @@
-SQL PYTHO PYTHONN
+ Python - Object-relational mapping
